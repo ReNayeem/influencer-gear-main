@@ -21,7 +21,7 @@ header a{
 
 nav{
     width: 1240px;
-    height: 52.2px;
+    height: 80px;
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -96,7 +96,7 @@ hr{
 }
 
 .first-section-details .fas{
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .first-section-image{
@@ -132,7 +132,7 @@ hr{
 
 .second-section-product{
     background-color: white;
-    box-shadow: 2px 2px 40px rgb(214, 214, 214);
+    box-shadow: 2px 2px 40px rgb(231, 229, 229);
     width: 320px;
     height: 476px;
     display: flex;
@@ -140,6 +140,7 @@ hr{
     padding: 10px;
     border-radius: 10px;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .second-section-products{
@@ -195,6 +196,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .see-more .fa-arrow-right{
@@ -202,3 +204,42 @@ hr{
 }
 
 /* second section end */
+
+/* footer start */
+
+footer
+{
+    text-align: center;
+    height: 239px;
+    background-color: #0a0826;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+footer h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px;
+}
+footer p
+{
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+footer .fab{
+    background-color: #22203b;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* footer end */
