@@ -30,16 +30,6 @@ nav{
 
 /* nav end */
 
-.hr-line{
-    margin-top: 80px;
-}
-
-hr{
-    width: 1100px;
-    color: #787885;
-    margin: auto;
-}
-
 /* first section start */
 
 .first-section{
@@ -49,7 +39,6 @@ hr{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    margin-top: 50px;
     color: #3A3A3A;
     font-family: 'Poppins', sans-serif;
 }
@@ -119,6 +108,16 @@ hr{
 
 /* first section end */
 
+.hr-line{
+    margin-top: 80px;
+}
+
+hr{
+    width: 1100px;
+    color: #787885;
+    margin: auto;
+}
+
 /* second section start */
 
 .second-section-title{
@@ -127,7 +126,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 69px;
-    margin-bottom: 69px;
+    margin-bottom: 59px;
 }
 
 .second-section-product{
@@ -205,6 +204,57 @@ hr{
 
 /* second section end */
 
+/* third section start */
+
+.third-section{
+    margin-top: 80px;
+    color: #5E6366;
+    font-family: 'Poppins', sans-serif;
+}
+
+.third-section h1{
+    font-size: 28px;
+    text-align: center;
+    color: #18191F;
+    padding: 10px;
+}
+
+.third-section p{
+    margin-bottom: 69px;
+    text-align: center;
+    color: #18191F;
+    padding: 10px;
+}
+
+.third-section-category span{ 
+    color: #4f5355;
+    font-size: 70px;
+}
+
+.third-section-category{
+    box-shadow: 2px 2px 40px rgb(231, 229, 229);
+    height: 160px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.third-section-categorys{
+    display: grid;
+    grid-template-columns: repeat(6,150px);
+    justify-content: space-around;
+    grid-row-gap: 1.8em;
+    width: 1070px;
+    margin: auto;
+}
+
+/* third section end */
+
 /* footer start */
 
 footer
@@ -223,7 +273,7 @@ footer h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    margin: 10px;
+    margin: 5px;
 }
 footer p
 {
@@ -231,7 +281,7 @@ footer p
     font-family: 'Manrope', sans-serif;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px;
+    margin: 5px;
 }
 
 footer .fab{
