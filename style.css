@@ -378,21 +378,26 @@ footer .fab{
 @media only screen and (max-width: 676px) {
 
     .first-section{
-    width: 390px;
-    grid-template-columns: repeat(1,0fr);
-    justify-content: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
     grid-row-gap: 3em;
     margin-bottom: 150px;
     }
 
     .first-section img{
-        width: 375px;
+        width: 350px;
         height: auto;
     }
 
+    .first-section-image{
+        padding: 0;
+    }
+
     .first-section-details{
-        width: 390px;
+        width: 350px !important;
         order: 1;
+        padding: 0;
     }
 
     hr{
