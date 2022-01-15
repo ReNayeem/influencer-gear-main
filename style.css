@@ -368,7 +368,8 @@ footer .fab{
     .third-section-categories{
         width: 660px !important;
         grid-template-columns: repeat(4,150px);
-        grid-row-gap: .4em;
+        grid-row-gap: .8em;
+        grid-column-gap: 1.5em;
     }
     }
 
@@ -423,7 +424,7 @@ footer .fab{
     .third-section-categories{
         width: 335px !important;
         grid-template-columns: repeat(2,150px);
-        grid-row-gap: .4em;
+        grid-row-gap: 1em;
     }
     }
 
