@@ -251,6 +251,7 @@ hr{
     grid-template-columns: repeat(6,150px);
     justify-content: space-around;
     grid-row-gap: 1.1em;
+    padding-right: 10px;
     width: 1070px;
     margin: auto;
 }
