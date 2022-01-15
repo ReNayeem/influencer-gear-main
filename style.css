@@ -246,7 +246,7 @@ hr{
     cursor: pointer;
 }
 
-.third-section-categorys{
+.third-section-categories{
     display: grid;
     grid-template-columns: repeat(6,150px);
     justify-content: space-around;
@@ -322,7 +322,7 @@ footer .fab{
         width: 1010px;
     }
 
-    .third-section-categorys{
+    .third-section-categories{
         width: 1037px !important;
         grid-row-gap: .8em;
     }
@@ -365,7 +365,7 @@ footer .fab{
         margin-top: 50px;
     }
 
-    .third-section-categorys{
+    .third-section-categories{
         width: 660px !important;
         grid-template-columns: repeat(4,150px);
         grid-row-gap: .4em;
@@ -420,7 +420,7 @@ footer .fab{
         margin-top: 50px;
     }
 
-    .third-section-categorys{
+    .third-section-categories{
         width: 335px !important;
         grid-template-columns: repeat(2,150px);
         grid-row-gap: .4em;
